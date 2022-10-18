@@ -1,1 +1,76 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="digicon.js"></script>
+    <script src="/js/iframeResizer.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Digicon Work Space</title>
+   
+ 
+    <style>
+     
+    </style>
+</head>
+<body>
+    <header>
+       <img src="logo.png" alt="">
+       <h1 style=" color:#BA74EC;"> <span style="color:orange">D</span>igicon <span style="color:orange">T</span>echnologies</h1>
+    </header>
+  
+    <div id="container">
+        <div id="main">
+            <iframe src="https://digicon.dialer360.com/agc/vicidial.php#"  allow="microphone" width="100%" frameborder="0"></iframe>
+        </div>
+        <div id="cols">
+            <h2> Digicon Flow</h2>
+            
+            <button onclick="greeting();" class="green">Greeting</button>
+            <button onclick="pitch();"class="green">Pitch</button>
+            <button onclick="medicareab();" class="green">Madicare A&B</button>
+            <button onclick="dob();" class="green">Age</button>
+            
+            <br><br>
+            <h2> Helpers</h2>
+            
+            <button onclick="notinterested();" class="orange">If Not Interested</button>
+            <button onclick="busy();" class="orange">If Busy</button>
+            <button onclick="haveplan();" class="orange"> If Have Plan</button>
+            <button onclick="real();" class="orange">Real</button>
+            <button onclick="there();" class="orange">Are You There</button>
+            <button onclick="yes();" class="orange">Yes</button>
+            <button onclick="no();" class="orange">No</button>
+           
+            <button onclick="ok();" class="orange">Ok</button>
+            <br><br>
+            <h2> Closers</h2>
+            <button onclick="stop();" style="background-color:red; color:white">Stop</button>
+            <button onclick="transfer();"  style="background-color
+            :green; 
+            color:white;
+            margin-top:5px;
+            " >Transfer</button>
+            <button onclick="bye();" style="background-color:red; color:white">Good Bye</button>
+           
+
+        </div>
+      
+        </div>
+    <audio id="greeting" src="greeting.mp3"></audio>
+    <audio id="pitch" src="pitch.mp3"></audio>
+    <audio id="dob" src="dob.mp3"></audio>
+    <audio id="medicareab" src="medicareab.mp3"></audio>
+    <audio id="transfer" src="transfer.mp3"></audio>
+    <audio id="bye" src="bye.mp3"></audio>
+    <audio id="notinterested" src="notinterested.mp3"></audio>
+    <audio id="busy" src="busy.mp3"></audio>
+    <audio id="haveplan" src="haveplan.mp3"></audio>
+    <audio id="real" src="real.mp3"></audio>
+    <audio id="there" src="there.mp3"></audio>
+    <audio id="yes" src="yes.mp3"></audio>
+    <audio id="no" src="no.mp3"></audio>
+    <audio id="ok" src="ok.mp3"></audio>
+</body>
+</html>
