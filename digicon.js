@@ -15,50 +15,7 @@ document.addEventListener('keyup', (event) => {
             var dob = document.getElementById("dob");
               dob.play();
         }
-        if(name==4){
-            var medicareab = document.getElementById("medicareab");
-              medicareab.play();
-        }
-        if(name=='Enter'){
-            var transfer =document.getElementById('transfer');
-    transfer.play();
-        }
-        if(name=='g'){
-            var bye =document.getElementById('bye');
-            bye.play();
-        }
-        if(name=='q'){
-            var notinterested =document.getElementById('notinterested');
-    notinterested.play();
-        }
-        if(name=='w'){
-            var busy =document.getElementById('busy');
-            busy.play();
-        }
-        if(name=='e'){
-            var haveplan =document.getElementById('haveplan');
-            haveplan.play();
-        }
-        if(name=='r'){
-            var real =document.getElementById('real');
-    real.play();
-        }
-        if(name=='t'){
-            var there =document.getElementById('there');
-    there.play();
-        }
-        if(name=='y'){
-            var yes =document.getElementById('yes');
-            yes.play();
-        }
-        if(name=='u'){
-            var no =document.getElementById('no');
-            no.play();
-        }
-        if(name=='o'){
-            var ok =document.getElementById('ok');
-            ok.play();
-        }
+       
 
           else if(name== 'Control'){
               var greeting = document.getElementById("greeting");
@@ -75,6 +32,34 @@ document.addEventListener('keyup', (event) => {
               var no =document.getElementById('no');
               var haveplan =document.getElementById('haveplan');
               var ok =document.getElementById('ok');
+              
+    var hello = document.getElementById("hello");
+    var zip =document.getElementById('zip');
+    var thanks =document.getElementById('thanks');
+    var glad = document.getElementById("glad");
+    var sorry = document.getElementById("sorry");
+    var repeat =document.getElementById('repeat');
+    var name =document.getElementById('name');
+    var location =document.getElementById('location');
+    var dob1 =document.getElementById('dob1');
+    hello.pause();
+    hello.currentTime = 0;
+    zip.pause();
+    zip.currentTime = 0;
+    dob1.pause();
+    dob1.currentTime = 0;
+    thanks.pause();
+    thanks.currentTime = 0;
+    glad.pause();
+    glad.currentTime = 0;
+    sorry.pause();
+    sorry.currentTime = 0;
+    repeat.pause();
+    repeat.currentTime = 0;
+    name.pause();
+    name.currentTime = 0;
+    location.pause();
+    location.currentTime = 0;
              
               greeting.pause();
               greeting.currentTime = 0;
@@ -128,6 +113,16 @@ function stop(){
     var no =document.getElementById('no');
     var haveplan =document.getElementById('haveplan');
     var ok =document.getElementById('ok');
+
+    var hello = document.getElementById("hello");
+    var zip =document.getElementById('zip');
+    var thanks =document.getElementById('thanks');
+    var glad = document.getElementById("glad");
+    var sorry = document.getElementById("sorry");
+    var repeat =document.getElementById('repeat');
+    var name =document.getElementById('name');
+    var location =document.getElementById('location');
+    var dob1 =document.getElementById('dob1');
    
     greeting.pause();
     greeting.currentTime = 0;
@@ -157,6 +152,25 @@ function stop(){
     haveplan.currentTime = 0;
     busy.pause();
     busy.currentTime = 0;
+
+    hello.pause();
+    hello.currentTime = 0;
+    zip.pause();
+    zip.currentTime = 0;
+    dob1.pause();
+    dob1.currentTime = 0;
+    thanks.pause();
+    thanks.currentTime = 0;
+    glad.pause();
+    glad.currentTime = 0;
+    sorry.pause();
+    sorry.currentTime = 0;
+    repeat.pause();
+    repeat.currentTime = 0;
+    name.pause();
+    name.currentTime = 0;
+    location.pause();
+    location.currentTime = 0;
     
   
 }
@@ -215,4 +229,41 @@ function stop(){
    function ok(){
     var ok=document.getElementById('ok');
     ok.play();
+   }
+
+   function hello(){
+    var hello =document.getElementById('hello');
+    hello.play();
+   }
+   function dob1(){
+    var dob1 =document.getElementById('dob1');
+    dob1.play();
+   }
+   function zip(){
+    var zip =document.getElementById('zip');
+    zip.play();
+   }
+   function thanks(){
+    var thanks=document.getElementById('thanks');
+    thanks.play();
+   }
+   function glad(){
+    var glad =document.getElementById('glad');
+    glad.play();
+   }
+   function sorry(){
+    var sorry =document.getElementById('sorry');
+    sorry.play();
+   }
+   function repeat(){
+    var repeat =document.getElementById('repeat');
+    repeat.play();
+   }
+   function namea(){
+    var name =document.getElementById('name');
+    name.play();
+   }
+   function locationa(){
+    var location=document.getElementById('location');
+    location.play();
    }

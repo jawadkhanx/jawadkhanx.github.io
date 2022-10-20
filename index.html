@@ -25,39 +25,55 @@
             <iframe src="https://digicon.dialer360.com/agc/vicidial.php#"  allow="microphone" width="100%" frameborder="0"></iframe>
         </div>
         <div id="cols">
+            <h2> Helpers</h2>
+            <button onclick="there();" class="blue">Are You There</button>
+            <button onclick="thanks();" class="blue">Thanks Asking</button>
+            <button onclick="glad();" class="blue">Glad To Hear</button>
+            <button onclick="sorry();" class="blue">Sorry To Hear</button>
+            <button onclick="yes();" class="blue">Yes</button>
+            <button onclick="no();" class="blue">No</button>
+            <button onclick="repeat();" class="blue">Please Repeat</button>
+            <button onclick="namea();" class="blue">Agent Name</button>
+            <button onclick="locationa();" class="blue">Location</button>
+            <button onclick="real();" class="blue">Real</button>
+            <button onclick="ok();" class="blue">Ok</button>
+          
+
+        </div>
+        <div id="cols">
             <h2> Digicon Flow</h2>
-            
+            <button onclick="hello();" class="green">Hello</button>
             <button onclick="greeting();" class="green">Greeting</button>
             <button onclick="pitch();"class="green">Pitch+A&B</button>
            
             <button onclick="dob();" class="green">Age</button>
+            <button onclick="dob1();" class="green">Dob</button>
+            <button onclick="zip();" class="green">ZipCode</button>
             
             <br><br>
-            <h2> Helpers</h2>
+            <h2> Rebuttals</h2>
             
             <button onclick="notinterested();" class="orange">If Not Interested</button>
             <button onclick="busy();" class="orange">If Busy</button>
             <button onclick="haveplan();" class="orange"> If Have Plan</button>
-            <button onclick="real();" class="orange">Real</button>
-            <button onclick="there();" class="orange">Are You There</button>
-            <button onclick="yes();" class="orange">Yes</button>
-            <button onclick="no();" class="orange">No</button>
-            <button onclick="ok();" class="orange">Ok</button>
-            <button onclick="medicareab();" class="green">Repeat A&B</button>
            
             
+           
             <br><br>
-            <h2> Closers</h2>
-            <button onclick="stop();" style="background-color:red; color:white">Stop</button>
+            <hr>
+            <button onclick="stop();" style="background-color:red; color:white; margin-top:5px;padding:14px;">Stop</button>
+            <br><br>
+            <hr>
             <button onclick="transfer();"  style="background-color
             :green; 
             color:white;
-            margin-top:5px;
+            margin-top:5px;padding:14px;
             " >Transfer</button>
-            <button onclick="bye();" style="background-color:red; color:white">Good Bye</button>
+           
            
 
         </div>
+      
       
         </div>
     <audio id="greeting" src="greeting.mp3"></audio>
@@ -74,5 +90,15 @@
     <audio id="yes" src="yes.mp3"></audio>
     <audio id="no" src="no.mp3"></audio>
     <audio id="ok" src="ok.mp3"></audio>
+
+    <audio id="dob1" src="dob1.mp3"></audio>
+    <audio id="thanks" src="thanks.mp3"></audio>
+    <audio id="glad" src="glad.mp3"></audio>
+    <audio id="repeat" src="repeat.mp3"></audio>
+    <audio id="name" src="name.mp3"></audio>
+    <audio id="location" src="location.mp3"></audio>
+    <audio id="hello" src="hello.mp3"></audio>
+    <audio id="zip" src="zip.mp3"></audio>
+    <audio id="sorry" src="sorry.mp3"></audio>
 </body>
 </html>
